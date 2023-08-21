@@ -10,13 +10,10 @@ const getTodayString = () => {
 
 export const AppointmentForm = ({
                                   contacts,
-                                  name,
                                   setName,
                                   contact,
                                   setContact,
-                                  date,
                                   setDate,
-                                  time,
                                   setTime,
                                   handleSubmit
                                 }) => {
